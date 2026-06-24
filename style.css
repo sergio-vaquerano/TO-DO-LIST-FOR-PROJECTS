@@ -1,4 +1,11 @@
 header {
     display: flex;
-    
+    height: 50px;
+    justify-content: space-around;
+    gap: 800px;
+    margin-bottom: 50px;
+    border: 5px solid black;
+}
+#container-head{
+
 }
