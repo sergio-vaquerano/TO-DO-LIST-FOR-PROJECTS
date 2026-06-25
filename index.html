@@ -16,17 +16,25 @@
         </div>
     </header>
     <div>
-        <button>+ create a column</button>
+        <!--container for the button to create a column
+        I had to create this container so I can move the button to the right-->
+        <div class="container-button">
+            <button class="new-column">+ create a column</button>
+        </div>
+        
         
 
         <!--this is the card(container for the tasks)--> 
-        <div>
+        <div class="card-container">
             <h2>column 1</h2>
             <ul>
                 <li>create html structure</li>
                 <li>style the structure</li>
             </ul>
-            <button>Add new Task</button>
+            
+            <!--create a functionality that when 
+            the button is cliked a card is created-->
+            <button class="create-task-button">Add new Task</button>
         </div>
         
 

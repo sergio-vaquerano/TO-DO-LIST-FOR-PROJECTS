@@ -1,11 +1,49 @@
+body{
+    margin: 0px;
+}
 header {
     display: flex;
     height: 50px;
     justify-content: space-around;
     gap: 800px;
     margin-bottom: 50px;
-    border: 5px solid black;
+    border-bottom: 2px solid black;
+    padding:5px 0px 5px 0px;
+    font-family: 'Courier New', Courier, monospace;
+
+
 }
 #container-head{
+    display: flex;
+    align-items: center;
+}
 
+.new-column{
+    background-color: aqua;
+    font-size: medium;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+   
+
+}
+
+.container-button{
+    
+    float: right;
+    margin-right: 50px;
+
+}
+.new-column:hover{
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.card-container{
+    font-family: 'Courier New', Courier, monospace;
+}
+.create-task-button{
+    font-family: 'Courier New', Courier, monospace;
 }
